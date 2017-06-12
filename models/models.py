@@ -9,9 +9,11 @@ class TestingModel(models.Model):
     tel         =   fields.Char(string="Phone",         required=True)
     first_name  =   fields.Char(string="First Name",    required=True)  
     last_name   =   fields.Char(string="Last Name",     required=True)
-    address     =   fields.Text()
+    address     =   fields.Text(string="Address")
     town        =   fields.Char(string="Town",          required=True)
     zip         =   fields.Char(string="Zip",           required=True)
+    maile       =   fields.Char(string="Email",         required=True)
+
      
 
 # class testing(models.Model):
