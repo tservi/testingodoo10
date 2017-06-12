@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# more info here : http://www.odoo.com/documentation/10.0/reference/module.html#reference-module-manifest
 {
     'name': "testing",
 
@@ -33,3 +34,5 @@
     #    'demo/demo.xml',
     #],
 }
+
+
