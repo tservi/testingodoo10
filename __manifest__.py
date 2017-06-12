@@ -3,20 +3,20 @@
     'name': "testing",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Testing Odoo 10 modules creation
+        """,
 
     'description': """
-        Long description of module's purpose
+        No other purpose to test the Odoo 10 modules creation
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Jean Tinguely Awais",
+    'website': "http://www.t-servi.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/odoo/addons/base/module/module_data.xml
     # for the full list
-    'category': 'Uncategorized',
+    'category': 'Testing',
     'version': '0.1',
 
     # any module necessary for this one to work correctly
@@ -29,7 +29,7 @@
         'views/templates.xml',
     ],
     # only loaded in demonstration mode
-    'demo': [
-        'demo/demo.xml',
-    ],
+    #'demo': [
+    #    'demo/demo.xml',
+    #],
 }
