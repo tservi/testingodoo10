@@ -1,0 +1,22 @@
+<odoo>
+	<data>
+        <record model="testing.model" id="0">
+            <field name="tel">076 227 01 32</field>
+            <field name="first_name">Jean</field>
+            <field name="last_name">Tinguely Awais</field>
+            <field name="town">Marly</field>
+            <field name="zip">1723</field>
+            <field name="address">
+            Impasse des Rosiers 5
+            Switzerland
+            </field>
+        </record>
+        <record model="testing.model" id="1">
+            <field name="tel">079 999 99 99</field>
+            <field name="first_name">John</field>
+            <field name="last_name">Doe</field>
+            <field name="town">Nowhere</field>
+            <field name="zip">9999</field>
+        </record>
+    </data>
+</odoo>
