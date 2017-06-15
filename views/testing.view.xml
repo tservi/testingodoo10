@@ -66,7 +66,7 @@
         </record>
 
         <!-- top level menu: no parent -->
-        <menuitem id="main_testing_menu" name="Main Testing"/>
+        <menuitem id="main_testing_menu" name="Main Testing" web_icon="testing,static/description/icon.png"/>
         <!-- A first level in the left side menu is needed
              before using action= attribute -->
         <menuitem id="testing1_menu" name="Testing 1"
